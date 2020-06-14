@@ -1,0 +1,48 @@
+{
+  "copyright": "foothill cs3b",
+  "purpose": "sample dictionary.json for assignment #8",
+  "todo": "add at least 3 more words with part of speech, definition, and optionally example of usage",
+  "entries": [
+    {
+      "word": "ace",
+      "part_of_speech": "noun",
+      "definition": "a playing card with a single spot on it, ranked as the highest card in its suit in most card games",
+      "example": "life had started dealing him aces again"
+    },
+    {
+      "word": "python",
+      "part_of_speech": "noun",
+      "definition": "a large heavy-bodied non-venomous snake occurring throughout the Old World tropics, killing prey by constriction and asphyxiation."
+    },
+    {
+      "word": "foothill",
+      "part_of_speech": "noun",
+      "definition": "a low hill at the base of a mountain or mountain range",
+      "example":  "the camp lies in the foothills of the Andes"
+    },
+    {
+      "word": "fly",
+      "part_of_speech": "verb",
+      "definition": "(of a bird, bat, or insect) move through the air using wings",
+      "example":  "he was sent flying by the tackle"
+    },
+    {
+      "word": "elephant",
+      "part_of_speech": "noun",
+      "definition": "a thickset, usually extremely large, nearly hairless, herbivorous mammal (family Elephantidae, the elephant family) that has a snout elongated into a muscular trunk and two incisors in the upper jaw developed especially in the male into long ivory tusks",
+      "example":  "an elephant is larger in size than a lion"
+    },
+    {
+      "word": "sing",
+      "part_of_speech": "verb",
+      "definition": "to produce musical tones by means of the voice",
+      "example":  "the birds were singing in the morning"
+    },
+    {
+      "word": "brag",
+      "part_of_speech": "verb",
+      "definition": "to talk boastfully",
+      "example":  "he bragged that his shoes cost $100"
+    }
+  ]
+}
