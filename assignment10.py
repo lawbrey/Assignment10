@@ -73,7 +73,7 @@ class OxfordDictionary:
     def __init__(self):
         pass
 
-    def dictionary_entry_decoder(self, o):
+    def dictionary_entry_decoder(self):
         pass
 
     def search(self, word):
@@ -184,13 +184,11 @@ class Dictionary:
     def search(self, word):
         try:
             entry, duration = time_func(self.dictionary_entry_cache.search, word)
-            #entry = self.dictionary_entry_cache.search(word)
             return entry, duration, DictionarySource.CACHE
         except KeyError:
             # If there's a KeyError, we'll search in local dictionary.
             # This may also fail to find the word, at which point we give up
             # (so allow the exception to be raised)
-            #entry = self.dictionary.search(word)
             entry, duration = time_func(self.dictionary.search, word)
             self.dictionary_entry_cache.add(entry)
             return entry, duration, self.dictionary_source
@@ -209,4 +207,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    # OxfordDictionary().search('dsa')
